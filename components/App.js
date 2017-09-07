@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import TextInput from './TextInput'
+
 
 class App extends Component {
   render() {
       return (
-          <div> This is definitely a React App (HMR hey hey dfd) now!</div>
+          <TextInput/>
       )
   }
 }
