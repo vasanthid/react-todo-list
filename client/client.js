@@ -15,7 +15,12 @@ let initialState = {
       text: 'My first todo',
       completed: false
     }
-  ]
+  ],
+
+  user : {
+    username : "Vasanthi",
+    id: 13
+  }
 }
 
 let store = configureStore(initialState);
